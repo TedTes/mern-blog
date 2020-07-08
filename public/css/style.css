@@ -1,0 +1,39 @@
+body{
+    background:#f4f6ff;
+    padding:0;
+    margin:0;
+}
+li{
+    list-style:none;
+    padding-right:.9em;
+    font-size:1.3em;
+}
+.articles{
+    margin-top:140px;
+    margin-left:50px;
+    width:900px;
+}
+ul{
+    text-align:center;
+    margin-top:.6em;
+}
+.header{
+    position:absolute;
+    width:100%;
+    top:0;
+    background:#abc2e8;
+    height:70px;
+   
+}
+.header h2{
+    border:2px solid black;
+    width:100px;
+    margin-left:.8em;
+}
+.menu{
+    display:flex;
+    position:absolute;
+    right:2em;
+    width:400px;
+    top:.9em;
+}

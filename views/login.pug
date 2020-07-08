@@ -1,0 +1,11 @@
+extends layout 
+
+block content
+ h2(style={color:"red",width:"600px",background:"black",margin:"150px auto"}) Login
+ form(action="/login",method="post")
+   label username
+   input(name="name",type="text")
+   label password
+   input(name="password",type="password")
+   input(name="submit",type="submit")
+   input(name="cancel",type="submit" value="cancel")
